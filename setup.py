@@ -344,3 +344,7 @@ def setup(c, flavour, samecolorrows = False):
     c.colors.contextmenu.selected.bg = palette["overlay0"]
     c.colors.contextmenu.selected.fg = palette["rosewater"]
     # }}}
+
+    # background color for webpages {{{
+    c.colors.webpage.bg = palette["base"]
+    # }}}
